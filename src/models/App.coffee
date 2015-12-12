@@ -7,7 +7,7 @@ class window.App extends Backbone.Model
     @set 'dealerHand', deck.dealDealer()
     @get('dealerHand').on 'gameover', => 
       @gameOver()
-
+      
 
 
   gameOver: ->
